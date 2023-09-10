@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/download"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="148dp"
-        android:layout_height="120dp"
-        android:background="#FC8686"
-        android:backgroundTint="#26E81010"
-        android:text="wadea"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="400dp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/task"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="173dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
